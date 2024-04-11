@@ -1,4 +1,7 @@
 public class Jaguar extends Animal{
+    /*
+    Cole Manchester Jaguar class
+     */
 
     /**
      * A constructor that takes in a name.
