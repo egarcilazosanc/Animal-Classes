@@ -8,10 +8,16 @@ public class Bobcat extends Animal{
         super(name);
     }
 
+    /**
+     * overwrites the sound method
+     */
     public void sound() {
         System.out.println("Mreow");
     }
 
+    /**
+     * overwrites the play method
+     */
     public void play() {
         System.out.println("Pounces");
     }
