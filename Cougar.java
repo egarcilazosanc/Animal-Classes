@@ -15,7 +15,7 @@ public class Cougar extends Animal {
     /**
      * A constructor that takes in a name.
      *
-     * @param name Name of the animal.
+     * @param name Name of the cougar.
      */
     public Cougar(String name) {
         super(name);
@@ -40,5 +40,15 @@ public class Cougar extends Animal {
     @Override
     public void play() {
         System.out.println("pounce");
+    }
+
+    /**
+     * Outputs the eating behavior of a cougar. This method overrides the eat
+     * method in the {@code Animal} class and provides a specific implementation
+     * indicating what the cougar is eating, using the cougar's name for a personalized touch.
+     */
+    @Override
+    public void eat() {
+        System.out.println(this.name + " eats some meat.");
     }
 }
