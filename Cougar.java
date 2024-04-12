@@ -28,7 +28,7 @@ public class Cougar extends Animal {
      */
     @Override
     public void sound() {
-        System.out.println("RRRAAAWR");
+        System.out.println(this.name + " sounds: RRRAAAWR...");
     }
 
     /**
@@ -39,7 +39,7 @@ public class Cougar extends Animal {
      */
     @Override
     public void play() {
-        System.out.println("pounce");
+        System.out.println(this.name + " plays; pounce, pounce,...");
     }
 
     /**
