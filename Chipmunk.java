@@ -14,7 +14,7 @@ public class Chipmunk extends Animal {
 
    /**
     * Prints a description of a sound a Chipmunk might make
-    * an animal makes.
+    * 
     */
    public void sound() {
       System.out.println("The Chipmunk makes a high-pitched \"Chip-Chip\" noise");
