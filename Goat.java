@@ -3,7 +3,7 @@
 *will have to override all of the abstract methods. 
 *@author Dmytro
 */
-public abstract class Animal{
+public class Goat extends Animal{
    
    
    /**
@@ -11,35 +11,40 @@ public abstract class Animal{
     */
    protected String name;
       
-   //hi
+   
    /**
     * A constructor that takes in a name.
-    *@param name Name of the animal.
+    *@param name Name of the goat.
     */
-   public Animal(String name){
-      this.name = name;
+   public Goat(String name){
+      super(name);
    }
    
    
    /**
     *Abstract method that should represent a specific sound
-    * an animal makes. 
+    * a goat makes. 
     */
-   public abstract void sound();
+   @Override
+   public void sound(){
+      System.out.println("bleat");
+   }
    
    
    /**
     * Abstract method that should represent a specific  activity
-    * that an animal does for fun.
+    * that a goat does for fun.
     */
-   public abstract void play();
-   
+    @Override
+   public void play(){
+         System.out.println("butt heads");
+   }
    
    /**
-    * A  method that prints out that the animal is eating food.
+    * A  method that prints out that the goat is eating food.
     */
    public void eat(){
-      System.out.println(this.name + " eats some food.");
+      System.out.println(name + " eats some food.");
    }  
 }
 
