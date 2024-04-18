@@ -26,4 +26,13 @@ public class Alligator extends Animal
     {
         System.out.print("*plays will ball and chases friends*\n");
     }
+
+    /**
+     * Prints out description of alligator eating.
+     */
+    @Override
+    public void eat()
+    {
+        System.out.println(this.name + " bites hard on his prey and spins... gulp. Yum!");
+    }
 }
