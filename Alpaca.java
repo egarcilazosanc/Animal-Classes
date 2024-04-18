@@ -1,21 +1,29 @@
+/**
+ * Extension of the {@link Animal} class to implement Alpaca behavior
+ * @see Animal
+ */
 public class Alpaca extends Animal {
-
+    
+    /**
+     * Constructs a new Alpaca
+     * @see Animal#Animal
+     */
     public Alpaca() {
         super("Alpaca");
     }
 
     /**
-    *Abstract method that should represent a specific sound
-    * an animal makes. 
-    */
+     * Method that represents an Alpaca sound.
+     * @see Animal#sound
+     */
    public void sound() {
         System.out.println("𝘩𝘮𝘮𝘮𝘮𝘮𝘮𝘮𝘮𝘮𝘮");
    }
    
    
    /**
-    * Abstract method that should represent a specific  activity
-    * that an animal does for fun.
+    * Method that represents an Alpaca's favorite activity.
+    * @see Animal#play    
     */
    public void play() {
         System.out.println("Spits at locals passing by");
