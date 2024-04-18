@@ -21,7 +21,7 @@ public class Fox extends Animal{
       System.out.println("Ducks say 'quack'");
       System.out.println("And fish go 'blub'");
       System.out.println("And the seal goes 'ow ow ow'");
-      System.out.println("But there's one sound"):
+      System.out.println("But there's one sound");
       System.out.println("That no one knows");
       System.out.println("What does the fox say?");
       System.out.println("Ring-ding-ding-ding-dingeringeding!");
