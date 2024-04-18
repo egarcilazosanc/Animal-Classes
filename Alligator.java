@@ -24,6 +24,6 @@ public class Alligator extends Animal
     @Override
     public void play()
     {
-        System.out.print("*plays will ball and chases friends\n");
+        System.out.print("*plays will ball and chases friends*\n");
     }
 }
