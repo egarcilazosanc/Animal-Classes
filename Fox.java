@@ -27,7 +27,7 @@ public class Fox extends Animal{
       System.out.println("Ring-ding-ding-ding-dingeringeding!");
       System.out.println("Gering-ding-ding-ding-dingeringeding!");
       System.out.println("Gering-ding-ding-ding-dingeringeding!");
-      System.out.println("System.out.println(What the fox say?");
+      System.out.println("What the fox say?");
       System.out.println("Wa-pa-pa-pa-pa-pa-pow!");
       System.out.println("Wa-pa-pa-pa-pa-pa-pow!");
       System.out.println("Wa-pa-pa-pa-pa-pa-pow!");
