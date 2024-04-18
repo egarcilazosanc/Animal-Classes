@@ -1,13 +1,15 @@
 public class Fox extends Animal{
 
-/**
+   /**
     * A constructor that takes in a name.
     *@param name Name of the animal.
     */
    public Fox(String name){
       super(name);
    }
-
+   /**
+   * Abstract method for the sound a fox makes
+   */
    public void sound(){
       System.out.println("Dog goes 'woof'");
       System.out.println("Cat goes 'meow'");
@@ -90,6 +92,21 @@ public class Fox extends Animal{
       System.out.println("I want to '(Mama-dum-day-do)' I want to, I want to know!");
       System.out.println("(Abay-ba-da bum-bum bay-do)");
       System.out.println("The Fox (What Does the Fox Say?) By Ylvis");
+   }
+
+   /**
+   * Abstract method that should represent a specific sound
+   * an animal makes. 
+   */
+   public void play(){
+      System.out.println("I scream and dig holes");
+   }
+
+   /**
+    * A  method that prints out that the animal is eating food.
+    */
+   public void eat(){
+      System.out.println(this.name + " eats some pomegranites and mice.");
    }
    
 }
