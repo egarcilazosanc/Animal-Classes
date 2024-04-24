@@ -29,7 +29,7 @@ public class Peacock extends Animal{
         System.out.println(name + " struts around, fanning " + name + "'s beautiful tail feathers.");
     }
     /**
-     * Our peacock is awfully curious, and likes to take his time as he eats.
+     * Our peacock is awfully curious, and likes to take his time as he eats.  
      */
     public void eat(){
         System.out.println(name + " pecks at the grains, " + name + "'s mind wanders in a maze of existential musings. " +"\n"+
