@@ -8,6 +8,9 @@ public class Shark extends Animal {
         super(name);
     }
     
+    /**
+     * Method to print out the sound that the shark makes
+     */
     @Override
     public void sound() {
 
@@ -15,6 +18,9 @@ public class Shark extends Animal {
 
     }
 
+    /**
+     * Method to print out what the shark does when it plays
+     */
     @Override
     public void play() {
 
